@@ -15,6 +15,9 @@
 		431E50A61F2DC88400AF1E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431E50A41F2DC88400AF1E33 /* LaunchScreen.storyboard */; };
 		431E50B11F2DC88400AF1E33 /* MyUniversalToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E50B01F2DC88400AF1E33 /* MyUniversalToolTests.m */; };
 		431E50BC1F2DC88400AF1E33 /* MyUniversalToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E50BB1F2DC88400AF1E33 /* MyUniversalToolUITests.m */; };
+		431E50CB1F2DCA9C00AF1E33 /* UIView+ExtensionSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E50CA1F2DCA9C00AF1E33 /* UIView+ExtensionSize.m */; };
+		431E50D21F2DCBED00AF1E33 /* QuickAccessSizeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E50D01F2DCBED00AF1E33 /* QuickAccessSizeVC.m */; };
+		431E50D31F2DCBED00AF1E33 /* QuickAccessSizeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 431E50D11F2DCBED00AF1E33 /* QuickAccessSizeVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		431E50B71F2DC88400AF1E33 /* MyUniversalToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyUniversalToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		431E50BB1F2DC88400AF1E33 /* MyUniversalToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUniversalToolUITests.m; sourceTree = "<group>"; };
 		431E50BD1F2DC88400AF1E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431E50C91F2DCA9C00AF1E33 /* UIView+ExtensionSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtensionSize.h"; sourceTree = "<group>"; };
+		431E50CA1F2DCA9C00AF1E33 /* UIView+ExtensionSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtensionSize.m"; sourceTree = "<group>"; };
+		431E50CF1F2DCBED00AF1E33 /* QuickAccessSizeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickAccessSizeVC.h; sourceTree = "<group>"; };
+		431E50D01F2DCBED00AF1E33 /* QuickAccessSizeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickAccessSizeVC.m; sourceTree = "<group>"; };
+		431E50D11F2DCBED00AF1E33 /* QuickAccessSizeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickAccessSizeVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +113,12 @@
 				431E509A1F2DC88400AF1E33 /* AppDelegate.m */,
 				431E509C1F2DC88400AF1E33 /* ViewController.h */,
 				431E509D1F2DC88400AF1E33 /* ViewController.m */,
+				431E50CF1F2DCBED00AF1E33 /* QuickAccessSizeVC.h */,
+				431E50D01F2DCBED00AF1E33 /* QuickAccessSizeVC.m */,
+				431E50D11F2DCBED00AF1E33 /* QuickAccessSizeVC.xib */,
 				431E509F1F2DC88400AF1E33 /* Main.storyboard */,
+				431E50C91F2DCA9C00AF1E33 /* UIView+ExtensionSize.h */,
+				431E50CA1F2DCA9C00AF1E33 /* UIView+ExtensionSize.m */,
 				431E50A21F2DC88400AF1E33 /* Assets.xcassets */,
 				431E50A41F2DC88400AF1E33 /* LaunchScreen.storyboard */,
 				431E50A71F2DC88400AF1E33 /* Info.plist */,
@@ -247,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				431E50A61F2DC88400AF1E33 /* LaunchScreen.storyboard in Resources */,
+				431E50D31F2DCBED00AF1E33 /* QuickAccessSizeVC.xib in Resources */,
 				431E50A31F2DC88400AF1E33 /* Assets.xcassets in Resources */,
 				431E50A11F2DC88400AF1E33 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				431E509E1F2DC88400AF1E33 /* ViewController.m in Sources */,
+				431E50D21F2DCBED00AF1E33 /* QuickAccessSizeVC.m in Sources */,
+				431E50CB1F2DCA9C00AF1E33 /* UIView+ExtensionSize.m in Sources */,
 				431E509B1F2DC88400AF1E33 /* AppDelegate.m in Sources */,
 				431E50981F2DC88400AF1E33 /* main.m in Sources */,
 			);
@@ -509,6 +525,7 @@
 				431E50C21F2DC88400AF1E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		431E50C31F2DC88400AF1E33 /* Build configuration list for PBXNativeTarget "MyUniversalToolTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +534,7 @@
 				431E50C51F2DC88400AF1E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		431E50C61F2DC88400AF1E33 /* Build configuration list for PBXNativeTarget "MyUniversalToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +543,7 @@
 				431E50C81F2DC88400AF1E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
