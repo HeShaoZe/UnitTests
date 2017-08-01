@@ -18,6 +18,8 @@
 		431E50CB1F2DCA9C00AF1E33 /* UIView+ExtensionSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E50CA1F2DCA9C00AF1E33 /* UIView+ExtensionSize.m */; };
 		431E50D21F2DCBED00AF1E33 /* QuickAccessSizeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E50D01F2DCBED00AF1E33 /* QuickAccessSizeVC.m */; };
 		431E50D31F2DCBED00AF1E33 /* QuickAccessSizeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 431E50D11F2DCBED00AF1E33 /* QuickAccessSizeVC.xib */; };
+		431E50D61F2DEB7200AF1E33 /* OperationSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E50D51F2DEB7200AF1E33 /* OperationSqliteTool.m */; };
+		431E50D91F2DEC7500AF1E33 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 431E50D81F2DEC7500AF1E33 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		431E50CF1F2DCBED00AF1E33 /* QuickAccessSizeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickAccessSizeVC.h; sourceTree = "<group>"; };
 		431E50D01F2DCBED00AF1E33 /* QuickAccessSizeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickAccessSizeVC.m; sourceTree = "<group>"; };
 		431E50D11F2DCBED00AF1E33 /* QuickAccessSizeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickAccessSizeVC.xib; sourceTree = "<group>"; };
+		431E50D41F2DEB7200AF1E33 /* OperationSqliteTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationSqliteTool.h; sourceTree = "<group>"; };
+		431E50D51F2DEB7200AF1E33 /* OperationSqliteTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationSqliteTool.m; sourceTree = "<group>"; };
+		431E50D81F2DEC7500AF1E33 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431E50D91F2DEC7500AF1E33 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +99,7 @@
 				431E50AF1F2DC88400AF1E33 /* MyUniversalToolTests */,
 				431E50BA1F2DC88400AF1E33 /* MyUniversalToolUITests */,
 				431E50941F2DC88400AF1E33 /* Products */,
+				431E50D71F2DEC7500AF1E33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +126,8 @@
 				431E509F1F2DC88400AF1E33 /* Main.storyboard */,
 				431E50C91F2DCA9C00AF1E33 /* UIView+ExtensionSize.h */,
 				431E50CA1F2DCA9C00AF1E33 /* UIView+ExtensionSize.m */,
+				431E50D41F2DEB7200AF1E33 /* OperationSqliteTool.h */,
+				431E50D51F2DEB7200AF1E33 /* OperationSqliteTool.m */,
 				431E50A21F2DC88400AF1E33 /* Assets.xcassets */,
 				431E50A41F2DC88400AF1E33 /* LaunchScreen.storyboard */,
 				431E50A71F2DC88400AF1E33 /* Info.plist */,
@@ -151,6 +160,14 @@
 				431E50BD1F2DC88400AF1E33 /* Info.plist */,
 			);
 			path = MyUniversalToolUITests;
+			sourceTree = "<group>";
+		};
+		431E50D71F2DEC7500AF1E33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				431E50D81F2DEC7500AF1E33 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +307,7 @@
 				431E509E1F2DC88400AF1E33 /* ViewController.m in Sources */,
 				431E50D21F2DCBED00AF1E33 /* QuickAccessSizeVC.m in Sources */,
 				431E50CB1F2DCA9C00AF1E33 /* UIView+ExtensionSize.m in Sources */,
+				431E50D61F2DEB7200AF1E33 /* OperationSqliteTool.m in Sources */,
 				431E509B1F2DC88400AF1E33 /* AppDelegate.m in Sources */,
 				431E50981F2DC88400AF1E33 /* main.m in Sources */,
 			);
