@@ -15,6 +15,14 @@
 		431E50A61F2DC88400AF1E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431E50A41F2DC88400AF1E33 /* LaunchScreen.storyboard */; };
 		431E50B11F2DC88400AF1E33 /* MyUniversalToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E50B01F2DC88400AF1E33 /* MyUniversalToolTests.m */; };
 		431E50BC1F2DC88400AF1E33 /* MyUniversalToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E50BB1F2DC88400AF1E33 /* MyUniversalToolUITests.m */; };
+		43A748E72102E285006A0E66 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A748E52102E285006A0E66 /* RootViewController.m */; };
+		43A748E82102E285006A0E66 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A748E62102E285006A0E66 /* RootViewController.xib */; };
+		43A748FB2102E4A4006A0E66 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A748F52102E4A4006A0E66 /* HomeViewController.m */; };
+		43A748FC2102E4A4006A0E66 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A748F62102E4A4006A0E66 /* HomeViewController.xib */; };
+		43A748FD2102E4A4006A0E66 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A748F92102E4A4006A0E66 /* MineViewController.m */; };
+		43A748FE2102E4A4006A0E66 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A748FA2102E4A4006A0E66 /* MineViewController.xib */; };
+		43A749022102E4C7006A0E66 /* HomeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A749002102E4C7006A0E66 /* HomeDetailVC.m */; };
+		43A749032102E4C7006A0E66 /* HomeDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A749012102E4C7006A0E66 /* HomeDetailVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,18 @@
 		431E50B71F2DC88400AF1E33 /* MyUniversalToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyUniversalToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		431E50BB1F2DC88400AF1E33 /* MyUniversalToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUniversalToolUITests.m; sourceTree = "<group>"; };
 		431E50BD1F2DC88400AF1E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A748E42102E285006A0E66 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		43A748E52102E285006A0E66 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		43A748E62102E285006A0E66 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		43A748F42102E4A4006A0E66 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		43A748F52102E4A4006A0E66 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		43A748F62102E4A4006A0E66 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		43A748F82102E4A4006A0E66 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		43A748F92102E4A4006A0E66 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		43A748FA2102E4A4006A0E66 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		43A748FF2102E4C7006A0E66 /* HomeDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeDetailVC.h; sourceTree = "<group>"; };
+		43A749002102E4C7006A0E66 /* HomeDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeDetailVC.m; sourceTree = "<group>"; };
+		43A749012102E4C7006A0E66 /* HomeDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeDetailVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +126,11 @@
 				431E509C1F2DC88400AF1E33 /* ViewController.h */,
 				431E509D1F2DC88400AF1E33 /* ViewController.m */,
 				431E509F1F2DC88400AF1E33 /* Main.storyboard */,
+				43A748E42102E285006A0E66 /* RootViewController.h */,
+				43A748E52102E285006A0E66 /* RootViewController.m */,
+				43A748E62102E285006A0E66 /* RootViewController.xib */,
+				43A748F32102E4A4006A0E66 /* HomeVC */,
+				43A748F72102E4A4006A0E66 /* MineVC */,
 				431E50A21F2DC88400AF1E33 /* Assets.xcassets */,
 				431E50A41F2DC88400AF1E33 /* LaunchScreen.storyboard */,
 				431E50A71F2DC88400AF1E33 /* Info.plist */,
@@ -138,6 +163,29 @@
 				431E50BD1F2DC88400AF1E33 /* Info.plist */,
 			);
 			path = MyUniversalToolUITests;
+			sourceTree = "<group>";
+		};
+		43A748F32102E4A4006A0E66 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				43A748F42102E4A4006A0E66 /* HomeViewController.h */,
+				43A748F52102E4A4006A0E66 /* HomeViewController.m */,
+				43A748F62102E4A4006A0E66 /* HomeViewController.xib */,
+				43A748FF2102E4C7006A0E66 /* HomeDetailVC.h */,
+				43A749002102E4C7006A0E66 /* HomeDetailVC.m */,
+				43A749012102E4C7006A0E66 /* HomeDetailVC.xib */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		43A748F72102E4A4006A0E66 /* MineVC */ = {
+			isa = PBXGroup;
+			children = (
+				43A748F82102E4A4006A0E66 /* MineViewController.h */,
+				43A748F92102E4A4006A0E66 /* MineViewController.m */,
+				43A748FA2102E4A4006A0E66 /* MineViewController.xib */,
+			);
+			path = MineVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +255,7 @@
 				TargetAttributes = {
 					431E50921F2DC88400AF1E33 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9UJLLEJ7YS;
 						ProvisioningStyle = Automatic;
 					};
 					431E50AB1F2DC88400AF1E33 = {
@@ -216,6 +265,7 @@
 					};
 					431E50B61F2DC88400AF1E33 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9UJLLEJ7YS;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 431E50921F2DC88400AF1E33;
 					};
@@ -248,7 +298,11 @@
 			files = (
 				431E50A61F2DC88400AF1E33 /* LaunchScreen.storyboard in Resources */,
 				431E50A31F2DC88400AF1E33 /* Assets.xcassets in Resources */,
+				43A748FC2102E4A4006A0E66 /* HomeViewController.xib in Resources */,
+				43A748E82102E285006A0E66 /* RootViewController.xib in Resources */,
+				43A749032102E4C7006A0E66 /* HomeDetailVC.xib in Resources */,
 				431E50A11F2DC88400AF1E33 /* Main.storyboard in Resources */,
+				43A748FE2102E4A4006A0E66 /* MineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +329,10 @@
 			files = (
 				431E509E1F2DC88400AF1E33 /* ViewController.m in Sources */,
 				431E509B1F2DC88400AF1E33 /* AppDelegate.m in Sources */,
+				43A748E72102E285006A0E66 /* RootViewController.m in Sources */,
+				43A748FD2102E4A4006A0E66 /* MineViewController.m in Sources */,
+				43A748FB2102E4A4006A0E66 /* HomeViewController.m in Sources */,
+				43A749022102E4C7006A0E66 /* HomeDetailVC.m in Sources */,
 				431E50981F2DC88400AF1E33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,10 +484,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UJLLEJ7YS;
 				INFOPLIST_FILE = MyUniversalTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snamuLianxi.MyUniversalTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -437,10 +500,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UJLLEJ7YS;
 				INFOPLIST_FILE = MyUniversalTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snamuLianxi.MyUniversalTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -471,6 +539,7 @@
 		431E50C71F2DC88400AF1E33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9UJLLEJ7YS;
 				INFOPLIST_FILE = MyUniversalToolUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snamuLianxi.MyUniversalToolUITests;
@@ -482,6 +551,7 @@
 		431E50C81F2DC88400AF1E33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9UJLLEJ7YS;
 				INFOPLIST_FILE = MyUniversalToolUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snamuLianxi.MyUniversalToolUITests;
@@ -509,6 +579,7 @@
 				431E50C21F2DC88400AF1E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		431E50C31F2DC88400AF1E33 /* Build configuration list for PBXNativeTarget "MyUniversalToolTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +588,7 @@
 				431E50C51F2DC88400AF1E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		431E50C61F2DC88400AF1E33 /* Build configuration list for PBXNativeTarget "MyUniversalToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +597,7 @@
 				431E50C81F2DC88400AF1E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

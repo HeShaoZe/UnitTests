@@ -37,4 +37,29 @@
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
+- (void)testTakeActionSomething
+{
+    
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    XCUIElement *pushhomedetailButton = app.buttons[@"PushHomeDetail"];
+    [pushhomedetailButton tap];
+    
+    XCUIElement *homeButton = app.navigationBars[@"Home"].buttons[@"Home"];
+    [homeButton tap];
+    
+    XCUIElementQuery *tabBarsQuery = app.tabBars;
+    [tabBarsQuery.buttons[@"Mine"] tap];
+    [tabBarsQuery.buttons[@"Home"] tap];
+    [pushhomedetailButton tap];
+    
+    XCUIElement *reloadButton = app.buttons[@"Reload"];
+    [reloadButton tap];
+    [reloadButton tap];
+    [app.buttons[@"Login"] tap];
+    [homeButton tap];
+
+
+}
+
+
 @end

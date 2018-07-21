@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeDetailVC">
+            <connections>
+                <outlet property="myWebView" destination="rPp-Pv-4bG" id="GQh-tn-A2B"/>
+                <outlet property="textFieldOne" destination="oX4-PZ-QgU" id="Pbg-EU-UfW"/>
+                <outlet property="textFieldTwo" destination="Hld-85-Nqv" id="Gh4-I9-UGG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hld-85-Nqv">
+                    <rect key="frame" x="40" y="170" width="295" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjC-3F-mdB">
+                    <rect key="frame" x="168.5" y="240" width="38" height="30"/>
+                    <state key="normal" title="Login"/>
+                    <connections>
+                        <action selector="loginTakeAction:" destination="-1" eventType="touchUpInside" id="ZBQ-4Z-CMW"/>
+                    </connections>
+                </button>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rPp-Pv-4bG">
+                    <rect key="frame" x="40" y="310" width="295" height="200"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="5OL-Km-FkN"/>
+                    </constraints>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msc-TD-yqL">
+                    <rect key="frame" x="0.0" y="0.0" width="35" height="30"/>
+                    <state key="normal" title="Dims"/>
+                    <connections>
+                        <action selector="dimssTakeAction:" destination="-1" eventType="touchUpInside" id="y72-Hx-Nw0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUd-2H-Ffz">
+                    <rect key="frame" x="164" y="570" width="47" height="30"/>
+                    <state key="normal" title="Reload"/>
+                    <connections>
+                        <action selector="reloadAction:" destination="-1" eventType="touchUpInside" id="Bh5-hg-rgl"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oX4-PZ-QgU">
+                    <rect key="frame" x="40" y="100" width="295" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FUd-2H-Ffz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9Fa-Sf-dCL"/>
+                <constraint firstItem="msc-TD-yqL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GKi-Kb-MQG"/>
+                <constraint firstItem="oX4-PZ-QgU" firstAttribute="leading" secondItem="Hld-85-Nqv" secondAttribute="leading" id="IKy-ih-dxE"/>
+                <constraint firstItem="hjC-3F-mdB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="IeQ-cj-aR6"/>
+                <constraint firstAttribute="trailing" secondItem="Hld-85-Nqv" secondAttribute="trailing" constant="40" id="Jc6-oT-ChW"/>
+                <constraint firstItem="rPp-Pv-4bG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="OSJ-Pa-dNY"/>
+                <constraint firstItem="Hld-85-Nqv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="Q5I-eQ-mxo"/>
+                <constraint firstAttribute="trailing" secondItem="rPp-Pv-4bG" secondAttribute="trailing" constant="40" id="QZO-32-Tb8"/>
+                <constraint firstItem="oX4-PZ-QgU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="XeJ-8c-2XU"/>
+                <constraint firstItem="Hld-85-Nqv" firstAttribute="top" secondItem="oX4-PZ-QgU" secondAttribute="bottom" constant="40" id="bhl-zt-7zA"/>
+                <constraint firstItem="oX4-PZ-QgU" firstAttribute="trailing" secondItem="Hld-85-Nqv" secondAttribute="trailing" id="cuO-DH-ISE"/>
+                <constraint firstItem="Hld-85-Nqv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="iVB-8H-qrP"/>
+                <constraint firstItem="rPp-Pv-4bG" firstAttribute="top" secondItem="hjC-3F-mdB" secondAttribute="bottom" constant="40" id="jD6-o8-ftp"/>
+                <constraint firstItem="oX4-PZ-QgU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="l60-FM-FKc"/>
+                <constraint firstItem="hjC-3F-mdB" firstAttribute="top" secondItem="Hld-85-Nqv" secondAttribute="bottom" constant="40" id="lsU-iZ-DFH"/>
+                <constraint firstItem="msc-TD-yqL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="sJk-Dk-sZg"/>
+                <constraint firstItem="FUd-2H-Ffz" firstAttribute="top" secondItem="rPp-Pv-4bG" secondAttribute="bottom" constant="60" id="zRX-Po-KTE"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>
